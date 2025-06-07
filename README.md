@@ -1,4 +1,4 @@
-# X PostsSةentiment Analysis
+# X Posts Sentiment Analysis
 
 A deep learning project using LSTM networks to classify tweet sentiments (positive/negative) based on the Sentiment140 dataset. This project was developed as part of the AI Capstone course at Samsung Innovation Campus.
 
@@ -29,31 +29,26 @@ Model checkpointing and early stopping
 Evaluation with metrics: accuracy, precision, recall, F1-score
 
 ### Project Steps
-Data Preprocessing
+#### Data Preprocessing :
 
-Removed URLs, mentions, stopwords, special characters
+- Removed URLs, mentions, stopwords, special characters
+- Tokenization and padding (max length = 50)
 
-Tokenization and padding (max length = 50)
+#### EDA (Exploratory Data Analysis):
 
-EDA (Exploratory Data Analysis)
+- Class balance check
+- Word clouds for each sentiment class
 
-Class balance check
+#### Model Training:
 
-Word clouds for each sentiment class
+- Compared LSTM, GRU, and Bidirectional LSTM architectures
+- Hyperparameter tuning (dropout rate, learning rate, etc.)
+- Early stopping and best-model saving
 
-Model Training
+#### Evaluation:
 
-Compared LSTM, GRU, and Bidirectional LSTM architectures
-
-Hyperparameter tuning (dropout rate, learning rate, etc.)
-
-Early stopping and best-model saving
-
-Evaluation
-
-Confusion matrix
-
-Performance comparison between 9 model versions
+- Confusion matrix
+- Performance comparison between 9 model versions
 
 ### Results
 Model	Accuracy	Training Time
@@ -63,13 +58,10 @@ LSTM (simpler)	49–75%	93–98 sec
 
 
 ### Future Work
-Apply transfer learning using BERT/GPT
-
-Expand dataset with multilingual or industry-specific tweets
-
-Improve generalization via text augmentation
-
-Develop a UI for real-time sentiment prediction
+- Apply transfer learning using BERT/GPT
+- Expand dataset with multilingual or industry-specific tweets
+- Improve generalization via text augmentation
+- Develop a UI for real-time sentiment prediction
 
 ### Team Members
 Aws Alharthi - Layan AlShahrani - Ismail Alsalhi - Ali Alfares - Naif Alaklubi - Lama Aljuaid
