@@ -2,12 +2,6 @@
 
 A deep learning project using LSTM networks to classify tweet sentiments (positive/negative) based on the Sentiment140 dataset. This project was developed as part of the AI Capstone course at Samsung Innovation Campus.
 
-### Project Structure
-Sentiment140_Project.ipynb: Jupyter notebook containing the full implementation.
-
-README.md: Project overview and instructions.
-
-SIC_AI_Capstone Project_Final Report.pdf: Detailed final report (not publicly distributed).
 
 ### Objective
 The main goal of this project is to build and evaluate LSTM-based models to classify sentiment in tweets. The project explores various model architectures and compares performance between LSTM, BiLSTM, and GRU.
